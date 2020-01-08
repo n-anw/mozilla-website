@@ -1,8 +1,10 @@
-p, h2 {
+p, {
   color: red;
+  border: 5px orange;
+  width: 500px;
 }
 
-h1 {
+h1, h2 {
   color: orange;
 }
 
