@@ -1,8 +1,18 @@
 
+p {
+  color: blue;
+  width: 500px;
+  border: 1px solid black;
+}
 
-h1, h2, p {
+.intro {
+	color: green
+}
+
+h1, h2 {
   color: orange;
 }
+
 
 ul {
   color: yellow;
