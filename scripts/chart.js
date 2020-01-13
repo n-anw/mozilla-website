@@ -1,6 +1,6 @@
-// Add apple stock chart
 
-margin = {top: 20, right: 50, bottom: 30, left: 50},
+
+var margin = {top: 20, right: 50, bottom: 30, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -35,7 +35,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data.tsv", function(error, data) {
+d3.tsv("scripts/data.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
