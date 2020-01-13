@@ -2,20 +2,26 @@
 p {
   color: blue;
   width: 500px;
-  border: 1px solid black;
+  border: 5px solid orange;
 }
 
 .intro {
 	color: green
+	width: 500px;
+  border: 5px solid green;
 }
 
 h1, h2 {
   color: orange;
+  width: 500px;
+  border: 5px solid red;
 }
 
 
 ul {
   color: yellow;
+  width: 460px;
+  border: 5px solid yellow;
 }
 
 ul {
